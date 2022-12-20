@@ -1,3 +1,4 @@
+Green Infrastructure Suitability Analysis - Kearny, New Jersey
 
 The students of the Coastal Resiliency Studio at the The Edward J. Bloustein School of Planning and Public Policy of Rutgers University worked with the Town of Kearny, New Jersey to better understand how precipitation events threatened the town and what measures the town could take to protect its infrastructure, mitigate urban flooding, and reduce combined sewer overflow events. 
 
