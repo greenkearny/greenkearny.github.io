@@ -56,7 +56,9 @@ We identified public spaces, streets, and rights-of-way as ideal sites for the T
 
 Two context layers are also included: median income and the percent of people of color, both at the Census Blockgroup level. Allocating more resources to low-income people, people of color, and foreign-born populations promotes social equity for potentially vulnerable populations. We believe that public outreach around green infrastructure should focus on the south side of Uplands Kearny. In the event of limited funding, this side of town should receive priority consideration for green infrastructure projects, especially those offering beautification co-benefits. Siting of all green infrastructure projects, but especially those in socially vulnerable areas, should be finalized in collaboration with community members. Especially in socially vulnerable neighborhoods, buy-in and feedback should be sought before siting is finalized to make sure the project contributes to social cohesion, rather than diminishing it.
 
-<iframe src="kearny_gi_webmap.html" height="855" width="110%"></iframe>
+<p align="center">
+  <iframe src="kearny_gi_webmap.html" height="855" width="120%"></iframe>
+</p>
 
 <p style="color:grey;">Sources: OpenStreetMap, NJGIN, NJDEP, American Community Survey 2019 5-Year, US Decennial Census.</p>
 
