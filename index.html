@@ -1,6 +1,14 @@
+<style type="text/css">
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
+</style>
+
 <h1 id="toc_0">Green Infrastructure Suitability Analysis - Kearny, New Jersey</h1>
 
-<p>The students of the Coastal Resiliency Studio at the The Edward J. Bloustein School of Planning and Public Policy of Rutgers University worked with the Town of Kearny, New Jersey to better understand how precipitation events threatened the town and what measures the town could take to protect its infrastructure, mitigate urban flooding, and reduce combined sewer overflow events. </p>
+<p style="font-family: Arial">The students of the Coastal Resiliency Studio at the The Edward J. Bloustein School of Planning and Public Policy of Rutgers University worked with the Town of Kearny, New Jersey to better understand how precipitation events threatened the town and what measures the town could take to protect its infrastructure, mitigate urban flooding, and reduce combined sewer overflow events. </p>
 
 <p>Urban flooding from extreme precipitation events represents a threat to communities in New Jersey, both coastal and inland. Additionally, historical urban development – in fluvial floodplains, on top of streams that we’ve buried underground – creates greater problems today, as storms like these become more frequent due to climate change. And all too often, the neighborhoods of communities that tend to suffer these consequences are disproportionately those that have been historically marginalized, those with lower incomes, and communities of color. But communities are not helpless to let these events continue to wreak havoc. One way that urban flooding from extreme precipitation can be managed is through green infrastructure. Mainly used in communities today to prevent polluted stormwater runoff from reaching waterways, green infrastructure can be an important tool to reduce and even prevent urban flooding from affecting neighborhoods in areas at greatest risk. Using green infrastructure in this way requires planning, and that is what the studio explored for Kearny. </p>
 
@@ -12,25 +20,25 @@
 
 <p>Green infrastructure sited at higher elevations can capture stormwater before it reaches lower elevations to cause flooding and before it enters the sewer system to cause CSO events. Accordingly, areas of higher elevation received higher scores in the analysis. </p>
 
-<p><img src="Elevation.png" alt="" width = "500"></p>
+<p><img src="Elevation.png" alt="" class="centerImage" width = "500"></p>
 
 <p><strong>Impervious Surfaces</strong></p>
 
 <p>Impervious surfaces, such as buildings and parking lots, cannot absorb stormwater, so it may either collect or run off, depending on the slope. Siting green infrastructure in areas with a high percentage of impervious surfaces increases that area’s ability to absorb stormwater. This both reduces flooding locally and reduces the volume of stormwater that can flow to lower elevations or enter the sewer system. In our analysis, we assigned higher scores to areas with a higher percentage of impervious surfaces.</p>
 
-<p><img src="ImperviousSurfaces.png" alt="" width = "500"></p>
+<p><img src="ImperviousSurfaces.png" alt="" class="centerImage" width = "500"></p>
 
 <p><strong>Modeled Runoff Flow</strong></p>
 
 <p>Siting green infrastructure close to where precipitation runoff flows allows it to capture as much runoff as possible before it reaches lower elevations or enters the sewer system. We used the Hydrology toolset in ArcGIS Pro to create this model, which shows the location and direction of runoff flows. To measure the distance from runoff flows, the Euclidean Distance tool in ArcGis Pro was used. For our analysis, we assigned a higher score to areas closer to runoff flows. </p>
 
-<p><img src="SurfaceRunoff.png" alt="" width = "500"></p>
+<p><img src="SurfaceRunoff.png" alt="" class="centerImage" width = "500"></p>
 
 <p><strong>Modeled Precipitation Accumulation</strong></p>
 
 <p>Siting green infrastructure close to areas of precipitation accumulation can prevent localized flooding and capture accumulating stormwater before it can become runoff. Since our goal in siting green infrastructure is to capture stormwater before it reaches lower elevations or enters the sewer system, we only used modeled accumulation above 50 ft in elevation. The Euclidean Distance tool from ArcGIS Pro was used again to measure distance from the modeled accumulation, with  For our analysis, areas closer to modeled precipitation accumulation areas received higher scores. </p>
 
-<p><img src="PrecipitationAccumulation.png" alt="" width = "500"></p>
+<p><img src="PrecipitationAccumulation.png" alt="" class="centerImage" width = "500"></p>
 
 <p>After evaluating the Kearny Uplands along each criteria, the average of the four scores were used to assign a score to each 10x10 foot section of the town, with higher scores indicating higher suitability.</p>
 
@@ -40,7 +48,7 @@
 
 <p>The resulting map is shown below. Areas in dark green received the highest suitability scores for green infrastructure while areas in white received the lowest scores.</p>
 
-<p><img src="AreaRanks.png" alt="" width = "500"></p>
+<p><img src="AreaRanks.png" alt="" class="centerImage" width = "500"></p>
 
 <p>We identified public spaces, streets, and rights-of-way as ideal sites for the Town to pilot green infrastructure installations. The map below shows all of the schools, parking lots, parks, and streets in Kearny which could be candidate sites for green infrastructure. The different categories of sites can be toggled on or off by the user and clicking on each site will display the suitability score for that location. </p>
 
