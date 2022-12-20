@@ -7,7 +7,7 @@ Our two goals in siting green infrastructure in Kearny are to prevent flooding a
 
 The four criteria used in the suitability analysis were:
 
-**Elevation**
+### **Elevation**
 
 Green infrastructure sited at higher elevations can capture stormwater before it reaches lower elevations to cause flooding and before it enters the sewer system to cause CSO events. Accordingly, areas of higher elevation received higher scores in the analysis. 
 
@@ -15,7 +15,7 @@ Green infrastructure sited at higher elevations can capture stormwater before it
   <img src="Elevation.png" width="500" />
 </p>
 
-**Impervious Surfaces**
+### Impervious Surfaces
 
 Impervious surfaces, such as buildings and parking lots, cannot absorb stormwater, so it may either collect or run off, depending on the slope. Siting green infrastructure in areas with a high percentage of impervious surfaces increases that area’s ability to absorb stormwater. This both reduces flooding locally and reduces the volume of stormwater that can flow to lower elevations or enter the sewer system. In our analysis, we assigned higher scores to areas with a higher percentage of impervious surfaces.
 
@@ -23,7 +23,7 @@ Impervious surfaces, such as buildings and parking lots, cannot absorb stormwate
   <img src="ImperviousSurfaces.png" width="500" />
 </p>
 
-**Modeled Runoff Flow**
+#### Modeled Runoff Flow
 
 Siting green infrastructure close to where precipitation runoff flows allows it to capture as much runoff as possible before it reaches lower elevations or enters the sewer system. We used the Hydrology toolset in ArcGIS Pro to create this model, which shows the location and direction of runoff flows. To measure the distance from runoff flows, the Euclidean Distance tool in ArcGis Pro was used. For our analysis, we assigned a higher score to areas closer to runoff flows. 
 
