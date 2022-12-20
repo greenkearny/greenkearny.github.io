@@ -11,26 +11,46 @@ The four criteria used in the suitability analysis were:
 
 Green infrastructure sited at higher elevations can capture stormwater before it reaches lower elevations to cause flooding and before it enters the sewer system to cause CSO events. Accordingly, areas of higher elevation received higher scores in the analysis. 
 
-![](www.google.com)
+<p align="center">
+  <img src="Elevation.png" width="500" />
+</p>
 
 **Impervious Surfaces**
 
 Impervious surfaces, such as buildings and parking lots, cannot absorb stormwater, so it may either collect or run off, depending on the slope. Siting green infrastructure in areas with a high percentage of impervious surfaces increases that area’s ability to absorb stormwater. This both reduces flooding locally and reduces the volume of stormwater that can flow to lower elevations or enter the sewer system. In our analysis, we assigned higher scores to areas with a higher percentage of impervious surfaces.
 
+<p align="center">
+  <img src="ImperviousSurfaces.png" width="500" />
+</p>
 
 **Modeled Runoff Flow**
 
 Siting green infrastructure close to where precipitation runoff flows allows it to capture as much runoff as possible before it reaches lower elevations or enters the sewer system. We used the Hydrology toolset in ArcGIS Pro to create this model, which shows the location and direction of runoff flows. To measure the distance from runoff flows, the Euclidean Distance tool in ArcGis Pro was used. For our analysis, we assigned a higher score to areas closer to runoff flows. 
 
+<p align="center">
+  <img src="SurfaceRunoff.png" width="500" />
+</p>
+
+
 **Modeled Precipitation Accumulation**
 
 Siting green infrastructure close to areas of precipitation accumulation can prevent localized flooding and capture accumulating stormwater before it can become runoff. Since our goal in siting green infrastructure is to capture stormwater before it reaches lower elevations or enters the sewer system, we only used modeled accumulation above 50 ft in elevation. The Euclidean Distance tool from ArcGIS Pro was used again to measure distance from the modeled accumulation, with  For our analysis, areas closer to modeled precipitation accumulation areas received higher scores. 
+
+<p align="center">
+  <img src="PrecipitationAccumulation.png" width="500" />
+</p>
+
 
 After evaluating the Kearny Uplands along each criteria, the average of the four scores were used to assign a score to each 10x10 foot section of the town, with higher scores indicating higher suitability.
 
 > (Elevation score + Impervious Surfaces score + Runoff score + Precipitation accumulation score)/4 = Suitability Score
 
 The resulting map is shown below. Areas in dark green received the highest suitability scores for green infrastructure while areas in white received the lowest scores.
+
+<p align="center">
+  <img src="AreaRanks.png" width="500" />
+</p>
+
 
 We identified public spaces, streets, and rights-of-way as ideal sites for the Town to pilot green infrastructure installations. The map below shows all of the schools, parking lots, parks, and streets in Kearny which could be candidate sites for green infrastructure. The different categories of sites can be toggled on or off by the user and clicking on each site will display the suitability score for that location. 
 
